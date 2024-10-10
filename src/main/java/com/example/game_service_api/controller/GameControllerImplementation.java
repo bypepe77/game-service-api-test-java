@@ -7,11 +7,9 @@ import com.example.game_service_api.exceptions.GameNameNotProvided;
 import com.example.game_service_api.exceptions.GameNotFoundException;
 import com.example.game_service_api.repsoitories.GameRepository;
 import com.example.game_service_api.services.GameService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@Slf4j
 @RestController
 @RequestMapping("/games")
 public class GameControllerImplementation implements GameController{
